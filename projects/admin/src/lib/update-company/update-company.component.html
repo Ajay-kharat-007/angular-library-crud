@@ -1,0 +1,66 @@
+<div mat-dialog-title>
+    <h1>{{data?'Update Company':"Add Company"}}</h1>
+</div>
+<form [formGroup]="hotelForm" (ngSubmit)="hotelRegistr()">
+    <div mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Owner ID</mat-label>
+                <input matInput placeholder="Ex. id" formControlName="id">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Company Name</mat-label>
+                <input matInput placeholder="Ex. Antllp" formControlName="name">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Location</mat-label>
+                <input matInput placeholder="Ex. Navi Mumbai" formControlName="location">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Company Email</mat-label>
+                <input matInput type="email" placeholder="Ex. ajay@gmail.com" formControlName="email">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Company Phone</mat-label>
+                <input matInput type="number" placeholder="Ex. 8857822354" formControlName="phone">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Since</mat-label>
+                <input matInput placeholder="Ex. 2018" formControlName="since">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>CEO</mat-label>
+                <input matInput placeholder="Ex. Ajay Kharat" formControlName="ceo">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Employees</mat-label>
+                <input matInput placeholder="Ex. 200" formControlName="empCount">
+            </mat-form-field>
+        </div>
+        <!-- <div class="row">
+            <mat-radio-group aria-label="Select Gender" formControlName="gender">
+                <mat-radio-button value="male">Male</mat-radio-button>
+                <mat-radio-button value="female">Female</mat-radio-button>
+              </mat-radio-group>
+        </div> -->
+        
+    </div>
+    <div mat-dialog-actions class="action">
+        <button mat-raised-button type="button" (click)="closeDialog()">Cancel</button>
+        <button mat-raised-button color="primary">{{data ? 'Update': 'Save'}}</button>
+    </div>
+</form>

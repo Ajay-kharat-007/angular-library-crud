@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "id": "Ajay007",
+      "firstname": "Ajay",
+      "lastname": "Kharat",
+      "phone": 8857822354,
+      "email": "ajay.kharat@antllp.com",
+      "gender": "male",
+      "password": "Ajay@123"
+    },
+    {
+      "id": "Rahul007",
+      "firstname": "Rahul",
+      "lastname": "Dawle",
+      "phone": 9881128200,
+      "email": "rahul.dawle@gmail.com",
+      "gender": "male",
+      "password": "Rahul@123"
+    },
+    {
+      "id": "Gulshan007",
+      "firstname": "Gulshan ",
+      "lastname": "Sethi",
+      "phone": "9403782354",
+      "email": "gulshan.sethi@gmail.com",
+      "gender": "male",
+      "password": "Gulshan@123"
+    },
+    {
+      "id": "Nagesh007",
+      "firstname": "Nagesh",
+      "lastname": "Chincholkar",
+      "phone": "9168302354",
+      "email": "nagesh.chincholkar@gmail.com",
+      "gender": "male",
+      "password": "Nagesh@123"
+    }
+  ],
+  "company": [
+    {
+      "id": 1,
+      "name": "Rupa Solitare",
+      "phone": 8857822354,
+      "email": "ajay.kharat@antllp.com",
+      "location": "Navi Mumbai",
+      "since": "2002",
+      "ceo": "Ajay Kharat",
+      "employees" : [
+        {
+          "id" : "ANT-1033",
+          "name" : "Vishal Pawar",
+          "age" : 20,
+          "email" : "vishal.pawar@gmail.com",
+          "phone" : 9403782354,
+          "location" : "Thane",
+          "joining" : "2 may 2023",
+          "salary" : 500000,
+          "dob" : "14-05-2002"
+        },
+        {
+          "id" : "ANT-1032",
+          "name" : "Nilesh Patil",
+          "age" : 23,
+          "email" : "nilesh.patil@gmail.com",
+          "phone" : 5564152851,
+          "location" : "Airoli",
+          "joining" : "2 may 2023",
+          "salary" : 515000,
+          "dob" : "14-04-2002"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Active Neurons Technology",
+      "phone": 9403782354,
+      "email": "harshad@antllp.com",
+      "location": "Navi Mumbai",
+      "since": "2016",
+      "ceo": "Harshad Satarkar",
+      "employees" : [
+        {
+          "id" : "ANT-1033",
+          "name" : "Vishal Pawar",
+          "age" : 20,
+          "email" : "vishal.pawar@gmail.com",
+          "phone" : 9403782354,
+          "location" : "Thane",
+          "joining" : "2 may 2023",
+          "salary" : 500000,
+          "dob" : "14-05-2002"
+        },
+        {
+          "id" : "ANT-1032",
+          "name" : "Nilesh Patil",
+          "age" : 23,
+          "email" : "nilesh.patil@gmail.com",
+          "phone" : 5564152851,
+          "location" : "Airoli",
+          "joining" : "2 may 2023",
+          "salary" : 515000,
+          "dob" : "14-04-2002"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Theme Piece",
+      "phone": 9421322354,
+      "email": "Theme.piece@gmail.com",
+      "location": "Borivali",
+      "since": "2016",
+      "ceo": "Nishant ",
+      "employees" : [
+        {
+          "id" : "ANT-1033",
+          "name" : "Vishal Pawar",
+          "age" : 20,
+          "email" : "vishal.pawar@gmail.com",
+          "phone" : 9403782354,
+          "location" : "Thane",
+          "joining" : "2 may 2023",
+          "salary" : 500000,
+          "dob" : "14-05-2002"
+        },
+        {
+          "id" : "ANT-1032",
+          "name" : "Nilesh Patil",
+          "age" : 23,
+          "email" : "nilesh.patil@gmail.com",
+          "phone" : 5564152851,
+          "location" : "Airoli",
+          "joining" : "2 may 2023",
+          "salary" : 515000,
+          "dob" : "14-04-2002"
+        }
+      ]
+    }
+  ]
+}
